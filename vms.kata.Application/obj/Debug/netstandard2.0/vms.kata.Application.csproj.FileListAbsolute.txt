@@ -1,0 +1,12 @@
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Application\bin\Debug\netstandard2.0\vms.kata.Application.deps.json
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Application\bin\Debug\netstandard2.0\vms.kata.Application.dll
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Application\bin\Debug\netstandard2.0\vms.kata.Application.pdb
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Application\bin\Debug\netstandard2.0\vms.kata.Domain.dll
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Application\bin\Debug\netstandard2.0\vms.kata.Domain.pdb
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Application\obj\Debug\netstandard2.0\vms.kata.Application.csprojResolveAssemblyReference.cache
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Application\obj\Debug\netstandard2.0\vms.kata.Application.csproj.CoreCompileInputs.cache
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Application\obj\Debug\netstandard2.0\vms.kata.Application.AssemblyInfoInputs.cache
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Application\obj\Debug\netstandard2.0\vms.kata.Application.AssemblyInfo.cs
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Application\obj\Debug\netstandard2.0\vms.kata.Application.csproj.CopyComplete
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Application\obj\Debug\netstandard2.0\vms.kata.Application.dll
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Application\obj\Debug\netstandard2.0\vms.kata.Application.pdb

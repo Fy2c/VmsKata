@@ -1,0 +1,9 @@
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Core\bin\Debug\netstandard2.0\vms.kata.Domain.deps.json
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Core\bin\Debug\netstandard2.0\vms.kata.Domain.dll
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Core\bin\Debug\netstandard2.0\vms.kata.Domain.pdb
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Core\obj\Debug\netstandard2.0\vms.kata.Domain.csprojResolveAssemblyReference.cache
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Core\obj\Debug\netstandard2.0\vms.kata.Domain.csproj.CoreCompileInputs.cache
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Core\obj\Debug\netstandard2.0\vms.kata.Domain.AssemblyInfoInputs.cache
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Core\obj\Debug\netstandard2.0\vms.kata.Domain.AssemblyInfo.cs
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Core\obj\Debug\netstandard2.0\vms.kata.Domain.dll
+C:\Users\frankychan\source\repos\vms.kata\vms.kata.Core\obj\Debug\netstandard2.0\vms.kata.Domain.pdb
