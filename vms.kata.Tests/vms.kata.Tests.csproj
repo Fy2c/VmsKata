@@ -51,7 +51,7 @@
     <Compile Include="Booking\BaseBookingSpec.cs" />
     <Compile Include="Booking\CreateBookingSpecSetup.cs" />
     <Compile Include="Booking\CreateBookingSpec.cs" />
-    <Compile Include="Config\MokeConfigService.cs" />
+    <Compile Include="Config\MockConfigService.cs" />
     <Compile Include="Config\MockMppService.cs" />
     <Compile Include="Config\MockPepService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

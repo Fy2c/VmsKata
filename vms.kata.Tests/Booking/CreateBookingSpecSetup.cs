@@ -38,7 +38,7 @@ namespace vms.kata.Tests.BookingSpec
             MockMppService mockMppService = new MockMppService(fakeMppDatasource);
             MockPepService mockPepService = new MockPepService(fakePepDatasource);
             MockUserService mockUserService = new MockUserService(fakeUserDatasource);
-            MokeConfigService fakeConfigService = new MokeConfigService(fakeConfigDatasource);
+            MockConfigService fakeConfigService = new MockConfigService(fakeConfigDatasource);
 
             bookingService = new BookingService(mockMppService, mockPepService, mockUserService, fakeConfigService);
         }        
