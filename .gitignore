@@ -1,0 +1,6 @@
+
+.vs/*
+packages/*
+vms.kata.Application/obj/Debug/*
+vms.kata.Core/obj/Debug/*
+vms.kata.Tests/obj/Debug/*

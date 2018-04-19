@@ -14,16 +14,16 @@ namespace vms.kata.Tests.Config
         public string variableId;
     }
 
-    public class MokeConfigService : IConfigService
+    public class MockConfigService : IConfigService
     {
         private ICollection<FakeConfigProperty> fakeDatasource;
 
-        public MokeConfigService(ICollection<FakeConfigProperty> fakeDatasource)
+        public MockConfigService(ICollection<FakeConfigProperty> fakeDatasource)
         {
             this.fakeDatasource = fakeDatasource;
         }
 
-        public string GetDbConfig(string varibableId, int valueFieldNumber, int valuePadding, bool useMachineCode)
+        public string GetDbConfig(string varibableId, int valueFieldNumber, int? valuePadding, bool? useMachineCode = false)
         {
             var configResult = (from config in fakeDatasource
                                 where varibableId.Equals(config.variableId, StringComparison.CurrentCultureIgnoreCase)
@@ -35,8 +35,19 @@ namespace vms.kata.Tests.Config
                                              valueFieldNumber == 3 ? config.value3 :
                                              throw new NotImplementedException())
                                 }).First();
-                                 
-            return configResult.machineCode + configResult.value.PadLeft(valuePadding - 1, '0');
+            var result = configResult.value;
+
+            if (valuePadding != null) {
+                result = result.PadLeft((int)valuePadding, '0');
+                result = result.Substring(result.Length - ((int) valuePadding - 1), (int) valuePadding - 1);
+            }
+            
+            if (useMachineCode == true)
+            {
+                result = configResult.machineCode + result;
+            }
+
+            return result;
         }
     }
 }

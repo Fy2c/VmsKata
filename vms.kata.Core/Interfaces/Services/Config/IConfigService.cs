@@ -2,6 +2,6 @@
 {
     public interface IConfigService
     {
-        string GetDbConfig(string varibableId, int valueFieldNumber, int valuePadding, bool useMachineCode);
+        string GetDbConfig(string varibableId, int valueFieldNumber, int? valuePadding, bool? useMachineCode);
     }
 }
